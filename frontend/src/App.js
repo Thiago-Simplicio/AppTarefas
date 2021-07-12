@@ -66,7 +66,7 @@ const App = () => {
         <span>Bloco De Tarefas</span>
         <form onSubmit={handleSubmit}>
           <div className="boxField">
-            <label>Titulo da Tarefa</label>
+            <label>Preencha o Bloco de Tarefa</label>
             <input
               onChange={(event) => setTitle(event.target.value)}
               value={title}
