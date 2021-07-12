@@ -63,10 +63,10 @@ const App = () => {
   return (
     <Container>
       <BlocoDeTarefa>
-        <span>Bloco De Tarefas</span>
+        <span>Preencha o Blocooo</span>
         <form onSubmit={handleSubmit}>
           <div className="boxField">
-            <label>Preencha o Bloco de Tarefa</label>
+            <label>Titulo da Tarefa</label>
             <input
               onChange={(event) => setTitle(event.target.value)}
               value={title}
